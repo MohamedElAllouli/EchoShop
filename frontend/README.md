@@ -58,12 +58,13 @@ To run **EchoShop** locally, follow these steps:
 ```bash
 git clone https://github.com/MohamedElAllouli/EchoShop.git
 cd EchoShop
-
 ```
+
 ## Install Dependencies
 
 
-Backend:
+## Backend:
+
 ```bash
 cd backend
 npm install
@@ -75,10 +76,10 @@ cd ../frontend
 npm install
 ```
 
-3. Run MongoDB
+## 3. Run MongoDB
 Ensure MongoDB is running on your machine or use MongoDB Atlas.
 
-4. Environment Variables
+## 4. Environment Variables
 Create a .env file in both the backend folder and fill out the following variables:
 
 ```bash
@@ -88,13 +89,15 @@ MONGODB_URI=mongodb+srv://your-db-url
 JWT_SECRET=your-secret-key
 STRIPE_SECRET_KEY=your-stripe-key
 ```
-5. Run the Application
-Backend (Node.js):
+## 5. Run the Application
+## Backend (Node.js):
+
 ```bash
 cd backend
 npm start
+
 ```
-Frontend (React):
+## Frontend (React):
 ```bash
 cd frontend
 npm start
@@ -108,7 +111,7 @@ MONGODB_URI: Your MongoDB connection string.
 JWT_SECRET: Secret key for JSON Web Token.
 STRIPE_SECRET_KEY: Secret key for Stripe payment processing.
 Usage
-1. Admin:
+# 1. Admin:
 Login as an admin to manage products, users, and orders.
 Add new products, update existing ones, and manage the inventory.
 2. Users:
@@ -135,3 +138,4 @@ GitHub: MohamedElAllouli
 - **API Documentation**: Briefly mention API endpoints, linking to more detailed docs if needed.
 - **Contributing**: Invite contributors with clear steps for forking, branching, and pull requests.
 
+```
