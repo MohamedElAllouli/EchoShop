@@ -1,6 +1,6 @@
 # EchoShop - MERN E-Commerce Platform
 
-![EchoShop](https://your-image-url.com/logo.png) <!-- Add a relevant logo or image for your project -->
+![EchoShop](.png) <!-- Add a relevant logo or image for your project -->
 
 ## Table of Contents
 
@@ -124,9 +124,9 @@ Place orders and view your order history.
 Contact
 For any inquiries or issues, you can reach out:
 
-Project Owner: EL ALLOULI MOHAMED - ADNAN EL MOUSTAGHFIR
-Email: alloulialloulimohamed2023@gmail.com
-GitHub: MohamedElAllouli
+## Project Owner: EL ALLOULI MOHAMED - ADNAN EL MOUSTAGHFIR
+## Email: alloulialloulimohamed2023@gmail.com
+## GitHub: MohamedElAllouli
 
 ```bash
 
