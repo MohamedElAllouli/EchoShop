@@ -1,6 +1,6 @@
 # EchoShop - MERN E-Commerce Platform
 
-![EchoShop](https://ibb.co/3vDBpB4) <!-- Add a relevant logo or image for your project -->
+![EchoShop](https://i.ibb.co/ZSnWBWG/rmmscl8.png) <!-- Add a relevant logo or image for your project -->
 
 ## Table of Contents
 
