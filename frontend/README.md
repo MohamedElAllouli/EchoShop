@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+# EchoShop - MERN E-Commerce Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![EchoShop](https://your-image-url.com/logo.png) <!-- Add a relevant logo or image for your project -->
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Environment Variables](#environment-variables)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**EchoShop** is a full-featured **MERN** stack e-commerce platform that allows users to browse, search, and purchase products online. It features a clean and responsive UI, user authentication, shopping cart, payment integration, and an admin dashboard to manage products, orders, and users.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Full-fledged product search, filtering, and sorting.
+- User authentication and authorization (JWT, bcrypt).
+- Shopping cart functionality (add, remove, checkout).
+- Payment integration (with Stripe).
+- Admin dashboard for product, user, and order management.
+- Order history and management.
+- Responsive design for mobile and desktop.
+- Pagination for large product listings.
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend:
+- React.js (with hooks)
+- React-Bootstrap
+- Axios
+- React Router
+- Redux for state management
+- Helmet for SEO optimization
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend:
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- JWT for authentication
+- Stripe for payment processing
+- Bcrypt for password hashing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+To run **EchoShop** locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the Repository
+```bash
+git clone https://github.com/MohamedElAllouli/EchoShop.git
+cd EchoShop
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+## Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend:
+```bash
+cd backend
+npm install
+```
+Frontend:
 
-## Learn More
+```bash
+cd ../frontend
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Run MongoDB
+Ensure MongoDB is running on your machine or use MongoDB Atlas.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Environment Variables
+Create a .env file in both the backend folder and fill out the following variables:
 
-### Code Splitting
+```bash
+# Backend .env
+PORT=5000
+MONGODB_URI=mongodb+srv://your-db-url
+JWT_SECRET=your-secret-key
+STRIPE_SECRET_KEY=your-stripe-key
+```
+5. Run the Application
+Backend (Node.js):
+```bash
+cd backend
+npm start
+```
+Frontend (React):
+```bash
+cd frontend
+npm start
+```
+The app will be available at http://localhost:3000 for the frontend, and the backend will run on http://localhost:4000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Environment Variables
+You will need the following environment variables for the application to function properly:
 
-### Analyzing the Bundle Size
+MONGODB_URI: Your MongoDB connection string.
+JWT_SECRET: Secret key for JSON Web Token.
+STRIPE_SECRET_KEY: Secret key for Stripe payment processing.
+Usage
+1. Admin:
+Login as an admin to manage products, users, and orders.
+Add new products, update existing ones, and manage the inventory.
+2. Users:
+Register and login to browse products and manage your cart.
+Place orders and view your order history.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Contact
+For any inquiries or issues, you can reach out:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Project Owner: EL ALLOULI MOHAMED - ADNAN EL MOUSTAGHFIR
+Email: alloulialloulimohamed2023@gmail.com
+GitHub: MohamedElAllouli
 
-### Deployment
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Key Sections:
+- **Features**: Highlight core functionality like product browsing, cart, and admin features.
+- **Tech Stack**: Mention frontend, backend, and additional libraries (React, Redux, Node.js, MongoDB, etc.).
+- **Installation**: Explain how to clone the repository, install dependencies, set up environment variables, and run the project.
+- **Usage**: Summarize the app’s functionality for users and admins.
+- **API Documentation**: Briefly mention API endpoints, linking to more detailed docs if needed.
+- **Contributing**: Invite contributors with clear steps for forking, branching, and pull requests.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
